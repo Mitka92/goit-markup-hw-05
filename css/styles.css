@@ -965,12 +965,11 @@ text-transform:capitalize;
     border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.40);
 }
-.modal-form-checkbox-icon{
-opacity: 0;
-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);;
-}
-.modal-form-checkbox:checked+.modal-form-custom-checkbox>.modal-form-checkbox-icon{
-    opacity: 1;
+
+.modal-form-agreement:checked+.checkbox-label>.agree {
+ background-color: #404bbf;
+border: none;
+fill: #F4F4FD;
 }
 .button-modal-submit{
     display: block;
