@@ -973,6 +973,7 @@ fill: #F4F4FD;
 }
 .button-modal-submit{
     display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
