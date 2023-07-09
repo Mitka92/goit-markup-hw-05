@@ -972,13 +972,26 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 .modal-form-checkbox:checked+.modal-form-custom-checkbox>.modal-form-checkbox-icon{
     opacity: 1;
 }
-.btn-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 24px;
+.button-modal-submit{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color:var(--iris);
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.button-modal-submit:hover,
+.button-modal-submit:focus{
+    background-color: var(--ocean);
+}
 /**
   |============================
   | Footer form
