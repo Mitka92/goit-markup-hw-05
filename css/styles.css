@@ -803,9 +803,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #ffffff;
 }
 
-.modal-form{
-
-}
 .label-container{
     margin-bottom: 8px;
 }
@@ -928,15 +925,12 @@ color: var(--form-title-color);
     fill: var(--cloud)
 }
 
-.agree-icon{
-
-}
-
 .checkbox-label{
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: var(--form-title-color);
+user-select: none;
 
 
 }
@@ -1004,9 +998,7 @@ fill: #F4F4FD;
     gap: 24px;
     align-items: center;
 }
-.subscribe-form-label {
 
-}
 .subscribe-form-input {
     outline: none;
     width: 264px;
@@ -1037,9 +1029,7 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 margin-bottom: 16px;
 }
-.footer-form{
-    
-}
+
 .footer-btn {
     display: inline-flex;
 padding: 8px 24px;
